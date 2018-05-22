@@ -24,6 +24,7 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import com.infonika.microservice.data.jpa.domain.City;
 
 @RepositoryRestResource(collectionResourceRel = "citys", path = "cities")
+public
 interface CityRepository extends PagingAndSortingRepository<City, Long> {
 
 	Page<City> findByNameContainingAndCountryContainingAllIgnoringCase(String name,
