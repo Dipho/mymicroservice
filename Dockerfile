@@ -1,3 +1,4 @@
+#Use java 8 runtime
 FROM java:8
 VOLUME /tmp
 ADD target/microservice-0.0.1-SNAPSHOT.jar user.jar
