@@ -4,7 +4,8 @@ pipeline {
         stage('build') {
             steps {
                 sh 'mvn --version'
-                sh 'echo "Hello World"
+                sh 'echo "Hello World"'
+                sh 'echo "Teste do listener do Jenkins"'
             }
         }
     }
