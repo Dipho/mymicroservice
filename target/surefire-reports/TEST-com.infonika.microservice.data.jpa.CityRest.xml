@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.infonika.microservice.data.jpa.service.HotelRepositoryTest" time="4.957" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="com.infonika.microservice.data.jpa.CityRest" time="1.039" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
@@ -15,6 +15,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
+    <property name="test" value="CityRest"/>
     <property name="server.port" value="9090"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="/home/dipho/eclipse-workspace/microservice"/>
@@ -46,7 +47,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dserver.port=9090 -Dserver.host=http://localhost"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dserver.port=9090 -Dserver.host=http://localhost -Dtest=CityRest"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="user.language.format" value="pt"/>
@@ -65,5 +66,6 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="FindFirstHotel" classname="com.infonika.microservice.data.jpa.service.HotelRepositoryTest" time="4.957"/>
+  <testcase name="basicPingTest" classname="com.infonika.microservice.data.jpa.CityRest" time="1.006"/>
+  <testcase name="invalidParkingSpace" classname="com.infonika.microservice.data.jpa.CityRest" time="0.033"/>
 </testsuite>
