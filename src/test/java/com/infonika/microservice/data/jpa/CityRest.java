@@ -1,6 +1,7 @@
 package com.infonika.microservice.data.jpa;
 
 import org.junit.Test;
+
 import static io.restassured.RestAssured.*;
 
 public class CityRest extends FunctionalTest{
