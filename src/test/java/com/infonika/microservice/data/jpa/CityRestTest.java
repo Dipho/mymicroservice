@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static io.restassured.RestAssured.*;
 
-public class CityRest extends FunctionalTest{
+public class CityRestTest extends FunctionalTest{
 	@Test
 	public void basicPingTest() {
 		given().when().get("/cities").then().statusCode(200);
