@@ -20,6 +20,6 @@ public class CityRepositoryTest {
 	@Test
 	public void FindCity() {
 		City city = this.repository.findByNameAndCountryAllIgnoringCase("Brisbane", "Australia");
-		assertThat(city.getName()).isEqualTo("Brisbane");
+		assertThat(city.getName()).isEqualTo("Brisbane");;
 	}
 }

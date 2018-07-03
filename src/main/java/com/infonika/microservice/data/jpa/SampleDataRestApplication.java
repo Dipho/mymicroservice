@@ -33,4 +33,3 @@ public class SampleDataRestApplication {
 		SpringApplication.run(SampleDataRestApplication.class, args);
 	}
 }
-

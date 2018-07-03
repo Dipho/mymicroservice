@@ -1,7 +1,6 @@
 package com.infonika.microservice.data.jpa;
 
 import org.junit.Test;
-
 import static io.restassured.RestAssured.*;
 
 public class CityRest extends FunctionalTest{
@@ -10,9 +9,9 @@ public class CityRest extends FunctionalTest{
 		given().when().get("/cities").then().statusCode(200);
 	}
 	
-    @Test
+	@Test
     public void invalidParkingSpace() {
         given().when().get("/cities/999")
             .then().statusCode(404);
-    }
+    }	
 }

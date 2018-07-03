@@ -5,7 +5,6 @@ import org.junit.BeforeClass;
 import io.restassured.RestAssured;
 
 public class FunctionalTest {
-
 	@BeforeClass
 	public static void setup() {
 		String port = System.getProperty("server.port");
