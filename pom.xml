@@ -78,14 +78,14 @@
 				<configuration>
                   <archive>
                     <manifest>
-                      <addClasspath>true</addClasspath>
+                      <!--<addClasspath>true</addClasspath>-->
                       <mainClass>com.infonika.microservice.data.jpa.SampleDataRestApplication</mainClass>
-                      <classpathPrefix>dependency-jars/</classpathPrefix>
+                      <!--<classpathPrefix>dependency-jars/</classpathPrefix>-->
                     </manifest>
                   </archive>
                 </configuration>
 			</plugin>
-			  <plugin>
+			 <!--<plugin>
 		           <groupId>org.apache.maven.plugins</groupId>
 		           <artifactId>maven-dependency-plugin</artifactId>
 		           <executions>
@@ -102,7 +102,7 @@
 		               </configuration>
 		               </execution>
 		           </executions>
-		         </plugin>
+		         </plugin>-->
 		</plugins>
 	</build>
 </project>
