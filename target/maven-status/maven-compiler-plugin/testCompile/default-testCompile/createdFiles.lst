@@ -1,0 +1,4 @@
+com/infonika/microservice/data/jpa/SampleDataRestApplicationTests.class
+com/infonika/microservice/data/jpa/service/HotelRepositoryTest.class
+com/infonika/microservice/data/jpa/service/CityRepositoryIntegrationTests.class
+com/infonika/microservice/data/jpa/service/CityRepositoryTest.class

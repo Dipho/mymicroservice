@@ -30,6 +30,11 @@ import org.springframework.data.rest.webmvc.config.RepositoryRestMvcConfiguratio
 public class SampleDataRestApplication {
 
 	public static void main(String[] args) throws Exception {
-		SpringApplication.run(SampleDataRestApplication.class, args);
+		if(args.length == 0)
+			SpringApplication.run(SampleDataRestApplication.class, args);
+		else {
+			TestRunner test = new TestRunner();
+			test.teste();
+		}
 	}
 }

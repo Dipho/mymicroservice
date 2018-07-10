@@ -1,0 +1,9 @@
+com/infonika/microservice/data/jpa/service/CityRepository.class
+com/infonika/microservice/data/jpa/FunctionalTest.class
+com/infonika/microservice/data/jpa/TestRunner.class
+com/infonika/microservice/data/jpa/service/CitySearchCriteria.class
+com/infonika/microservice/data/jpa/SampleDataRestApplication.class
+com/infonika/microservice/data/jpa/domain/Hotel.class
+com/infonika/microservice/data/jpa/CityRest.class
+com/infonika/microservice/data/jpa/domain/City.class
+com/infonika/microservice/data/jpa/service/HotelRepository.class
